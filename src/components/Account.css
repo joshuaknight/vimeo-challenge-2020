@@ -1,0 +1,29 @@
+
+.account {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.account-number {
+  border: 1px solid #edf1f7;
+  display: inline-block;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.header .name {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.header .content {
+  font-size: 14px;
+}
+
+.pageNo{
+  font-weight: 600;
+}

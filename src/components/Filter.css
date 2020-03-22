@@ -1,0 +1,31 @@
+
+.filter-box {
+    display: inline-block;
+    padding: 11px;
+    border: 0px;
+    margin-left: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
+    transition: 0.3s all;
+    background: #fff;
+  }
+  
+  .filter-box button{
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    background-color: #ffff;
+    border: 1px solid #e4e7ee;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    outline: 0;
+    transition-duration: 0.15s;
+    transition-property: background-color,border-color,box-shadow,color;
+    transition-timing-function: ease-in;
+  }
+  
+  .filter-box button.active{
+    border: 0px;
+    background: #FFAA00;
+    color: #fff;
+  }

@@ -1,0 +1,39 @@
+.search-box {
+  position: relative;
+  display: inline-block;
+}
+
+.search-box .icon {
+  content: "";
+  background-image: url("search-icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 17px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.search-box.searched .icon {
+  background-image: url("close.svg");
+}
+
+input {
+  background: #ffffff;
+  padding: 10px 30px 10px 10px;
+  font-size: 16px;
+  height: 2rem;
+  border-radius: 4px;
+  outline: 0;
+  width: 11rem;
+  border: 0px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
+  transition: 0.3s all;
+}
+
+input:focus {
+  width: 40rem;
+}
